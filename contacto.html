@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CONTACTO - UNG AGENCY</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>CONTÁCTANOS</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="servicios.html">MODELOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                 <li><a href="video.html">VIDEO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HORARIO DE ATENCIÓN - AHORA PRIMERO -->
+    <section class="horario">
+        <h2>HORARIOS DE ATENCIÓN</h2>
+        <p>
+            NUESTRAS PUERTAS ESTÁN ABIERTAS PARA TI. PUEDES VISITARNOS O AGENDAR UNA CITA SEGÚN TU DISPONIBILIDAD. TAMBIÉN ATENDEMOS POR WHATSAPP Y VIDEOLLAMADA.
+        </p>
+        <ul>
+            <li>LUNES A VIERNES: 9:00 AM – 6:00 PM</li>
+            <li>SÁBADOS: 10:00 AM – 2:00 PM</li>
+            <li>DOMINGOS: ATENCIÓN VIRTUAL CON CITA</li>
+        </ul>
+    </section>
+
+    <!-- UBICACIÓN - AHORA SEGUNDA -->
+    <section class="ubicacion">
+        <h2>NUESTRA UBICACIÓN</h2>
+        <p>
+            VISÍTANOS EN CHEVROLET FAME APATZINGÁN, UBICADA EN:
+            Ctra. Apatzingán–Uruapan Km 1.5, Col. Florida, Apatzingán, Michoacán.
+        </p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.0681201800015!2d-102.3645678!3d19.0828384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d09c2d760e69f%3A0xe0e473c3fda1a68c!2sChevrolet%20Fame%20Apatzing%C3%A1n!5e0!3m2!1ses!2smx!4v1718234690934!5m2!1ses!2smx" 
+            width="100%" 
+            height="400" 
+            style="border:0; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.3);" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="formulario">
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <p>
+            ¿TE INTERESA AGENDAR UNA CITA PARA VER UN AUTO? ¿TIENES PREGUNTAS SOBRE FINANCIAMIENTO, DISPONIBILIDAD O IMPORTACIONES?
+            COMPLETA ESTE FORMULARIO Y UNO DE NUESTROS ASESORES TE CONTACTARÁ A LA BREVEDAD.
+        </p>
+
+        <form action="https://formsubmit.co/jaimesalexa68@gmail.com" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+
+            <input type="hidden" name="_next" value="https://tu-pagina.com/gracias.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            <button type="submit">ENVIAR MENSAJE</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 UNG AGENCY - AUTOR: ARTURO MAXIMILIANO 407</p>
+    </footer>
+</body>
+</html>
